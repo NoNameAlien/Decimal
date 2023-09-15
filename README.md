@@ -69,6 +69,7 @@ s21_negate | Negates a decimal value (multiplies by -1)
 $ git clone https://github.com/NoNameAlien/Decimal
 $ cd Decimal
 $ make 
+```
 
 ### Tests
 * Unit tests are implemented using [Check](https://libcheck.github.io/check/) & coverage report with [LCOV](https://github.com/linux-test-project/lcov)
