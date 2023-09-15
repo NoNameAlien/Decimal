@@ -8,6 +8,7 @@
 * [Comparison Operators](#comparison-operators)
 * [Converters and Parsers](#converters-and-parsers)
 * [Additional Functions](#additional-functions)
+* [Build](#Build)
 * [Tests](#tests)
 
 ### Introduction
@@ -62,6 +63,12 @@ s21_floor | Returns the floor of a decimal
 s21_round | Rounds a decimal to the nearest integer
 s21_truncate | Truncates a decimal to its integral digits
 s21_negate | Negates a decimal value (multiplies by -1)
+
+## Build
+```
+$ git clone https://github.com/NoNameAlien/Decimal
+$ cd Decimal
+$ make 
 
 ### Tests
 * Unit tests are implemented using [Check](https://libcheck.github.io/check/) & coverage report with [LCOV](https://github.com/linux-test-project/lcov)
